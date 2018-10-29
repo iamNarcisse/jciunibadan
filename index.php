@@ -2,7 +2,7 @@
 
 require('./db/constants.php');
 require('./db/db_connection.php');
-require_once'./functions/functions.php';
+include'./functions/functions.php';
 ?>
 
 <?php
