@@ -1,0 +1,122 @@
+body {
+	background-image: url("yummy.jpg");
+}
+
+
+.wrapper {
+		background-color: #fff;
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 20px;
+	}
+
+	.wrapper:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.service h2, .service p {
+		margin: 10px 0;
+		text-align: center;
+		color: #999;
+	}
+
+	.service {
+		float: left;
+		margin: 1%;
+		background-color: #eee;
+		width: 29%;
+		padding: 1%;
+		height: 140px;
+		border-radius: 5px;
+	}
+
+	.content {
+		padding: 10px;
+		clear: left;
+		margin: 20px 1%;
+	}
+
+	.content p {
+		column-count: 3;
+		column-gap: 50px;
+		column-rule: 1px solid #ccc;
+		text-align: justify;
+	}
+
+	.content h2 {
+		text-align: center;
+	}
+	#banner {
+		max-height: 300px;
+		overflow: hidden;
+		margin: 1%;
+		position: relative;
+	}
+
+	footer {
+		text-align: center;
+		font-size: 16px;
+		font-family: arial;
+	}
+
+	footer p {
+		color: #fff ;
+		background-color: grey;
+		padding: 50px;
+                width: auto;
+
+	}
+
+	header {
+		margin-top: 20px;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		left: 200px;	}
+
+	li {
+		float: left;
+		
+	}
+
+   li a {
+		text-decoration-line: none;
+		display: block;
+        text-align: center;
+        padding: 14px 16px;
+        display: inline-block;
+        color: #fff;
+	}
+
+	li a:hover {
+    background-color: #00cc99;
+    border-radius: 2px;
+}
+
+ h2, p {
+
+		font-size: 16px;
+		color: grey;
+		font-family: arial;
+}
+
+h1 {
+	font-weight: 1px;
+	font-family: arial;
+	font-size: 16px;
+	color: #669999;
+}
+
+ h3 {
+	font-family: arial;
+	text-align: center;
+
+}

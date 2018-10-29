@@ -1,0 +1,11 @@
+CREATE TABLE `admin` (
+ `Admin_id` int(1) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ `Firstname` VARCHAR(225) NOT NULL,
+ `Lastname` VARCHAR(225) NOT NULL,
+ `Phone_number` VARCHAR(11) NOT NULL,
+ `Address` VARCHAR(200) NOT null,
+ `Position` VARCHAR(30) NOT NULL,
+ `Password` VARCHAR(200) NOT NULL,
+ `Date_registered` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
